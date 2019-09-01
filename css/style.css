@@ -1,0 +1,278 @@
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #394172;
+}
+
+#topBar {
+	position: fixed;
+	height: 17.5px;
+	width: 100vw;
+	background-color: #394172;
+	z-index: 1;
+}
+
+#bottomBar {
+	position: fixed;
+	height: 17.5px;
+	width: 100vw;
+	background-color: #394172;
+	bottom: 0%;
+	z-index: 1;
+}
+
+#leftBar {
+	position: fixed;
+	height: 100vh;
+	width: 17.5px;
+	background-color: #394172;
+}
+
+#rightBar {
+	position: fixed;
+	height: 100vh;
+	width: 17.5px;
+	background-color: #394172;
+	right: 0%;
+}
+
+#main {
+	padding: 10vh 10vw 0vh 10vw;
+}
+
+#content {
+	display: none;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 120%;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #394172;
+}
+
+nav ul li a:hover {
+	color: #4E99FF;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#about:hover {
+	color: #4E99FF;
+	cursor: pointer;
+}
+
+#logo {
+	width: 7vw;
+}
+
+/*--About--*/
+
+aside {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: #394172;
+	transition: all .3s ease;
+	z-index: 2;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#topBar2 {
+	position: fixed;
+	height: 17.5px;
+	width: 100vw;
+	background-color: #ffffff;
+}
+
+#bottomBar2 {
+	position: fixed;
+	height: 17.5px;
+	width: 100vw;
+	background-color: #ffffff;
+	bottom: 0%;
+}
+
+#leftBar2 {
+	position: fixed;
+	height: 100vh;
+	width: 17.5px;
+	background-color: #ffffff;
+}
+
+#rightBar2 {
+	position: fixed;
+	height: 100vh;
+	width: 17.5px;
+	background-color: #ffffff;
+	right: 0%;
+}
+
+.open {
+	opacity: 1;
+	visibility: visible;
+}
+
+.close {
+	font-size: 40px;
+	color: #ffffff;
+	opacity: 1;
+  	position: fixed;
+  	top: 13vh;
+  	left: 10vw;
+  	z-index: 1;
+  	cursor: pointer;
+}
+
+.close:hover {
+	color: #4E99FF;
+	opacity: 1;
+	transition: all .3s ease;
+}
+
+#logo2 {
+	position: fixed;
+	width: 7vw;
+	top: 10%;
+	right: 10%;
+}
+
+.whiteLine {
+	background-color: #FFFFFF;
+	margin-top: 25vh;
+	margin-left: 10vw;
+	height: 4px;
+	width: 8vw;
+}
+
+/*--End--*/
+
+.introduction {
+	margin-bottom: 50px;
+}
+
+.intro {
+	display: block;
+	font-weight: 500;
+}
+
+.intro h1 {
+	font-size: 300%
+}
+
+.intro p {
+	font-size: 175%;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.blueLine {
+	background-color: #4E99FF;
+	height: 4px;
+	width: 8vw;
+	margin-bottom: 30px;
+}
+
+.work {
+	margin-bottom: 50px;
+}
+
+.work p {
+	font-size: 125%;
+	font-weight: 400;
+}
+
+/*-----Project Windows-----*/
+
+.projectWindow {
+	background-color: #FFFFFF;
+	height: 200px;
+	width: 100%;
+	margin-bottom: 175px;
+}
+
+.wrapper {
+	height: 300px;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden !important;
+}
+
+.projectImage {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .3s ease-in-out;
+}
+
+.wrapper:hover img {
+	transform: scale(1.055);
+}
+
+.odd {
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+.even {
+	padding-right: 0;
+	padding-left: 35px;
+}
+
+/*-----end project windows-----*/
+
+#galleryImage {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+footer {
+	background-color: #394172;
+	height: 50px;
+	padding-top: 1vh;
+	display: none;
+	z-index: 4;
+	position: relative;
+}
+
+footer h4 {
+	color: white;
+	margin-left: 9vw;
+}
+
+@media screen and (max-width: 768px) {
+
+	#main {
+		padding: 10vh 15vw;
+	}
+
+	.odd {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.even {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.intro {
+		font-size: 100%;
+	}
+}

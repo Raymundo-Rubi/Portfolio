@@ -153,21 +153,41 @@ aside {
 	right: 10%;
 }
 
-.whiteLine {
-	background-color: #FFFFFF;
-	margin-top: 25vh;
+#aboutInfo {
 	margin-left: 10vw;
+	margin-top: 25vh;
+	margin-right: 10vw;
+	margin-bottom: 25vh;
+}
+
+#portrait {
+	width: 250px;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+#whiteLine {
+	background-color: #FFFFFF;
+	margin-top: 50px;
+	margin-bottom: 30px;
 	height: 4px;
 	width: 8vw;
 }
 
-#aboutInfo {
-	margin: 10vw;
+.aboutText {
+	font-size: 20px;
+	color: #ffffff;
 }
 
-.aboutText {
-	font-size: 22px;
-	color: #ffffff;
+.row .aboutText {
+	padding-top: 50px;
+}
+
+.whiteLine {
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	height: 4px;
+	width: 4vw;	
 }
 
 

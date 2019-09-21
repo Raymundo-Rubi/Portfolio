@@ -293,6 +293,41 @@ footer h4 {
 }
 
 @media screen and (max-width: 768px) {
+	#topbar {
+		height: 10px;
+	}
+
+	#bottombar {
+		height: 10px;
+	}
+
+	#leftbar {
+		width: 10px;
+	}
+
+	#rightbar {
+		width: 10px;
+	}
+
+	#topbar2 {
+		height: 10px;
+	}
+
+	#bottombar2 {
+		height: 10px;
+	}
+
+	#leftbar2 {
+		width: 10px;
+	}
+
+	#rightbar2 {
+		width: 10px;
+	}
+
+	#portrait {
+		width: 20%;
+	}
 
 	#main {
 		padding: 10vh 15vw;
@@ -309,6 +344,6 @@ footer h4 {
 	}
 
 	.intro {
-		font-size: 100%;
+		font-size: 60%;
 	}
 }

@@ -293,35 +293,35 @@ footer h4 {
 }
 
 @media screen and (max-width: 768px) {
-	#topbar {
+	#topBar {
 		height: 5px;
 	}
 
-	#bottombar {
+	#bottomBar {
 		height: 5px;
 	}
 
-	#leftbar {
+	#leftBar {
 		width: 5px;
 	}
 
-	#rightbar {
+	#rightBar {
 		width: 5px;
 	}
 
-	#topbar2 {
+	#topBar2 {
 		height: 5px;
 	}
 
-	#bottombar2 {
+	#bottomBar2 {
 		height: 5px;
 	}
 
-	#leftbar2 {
+	#leftBar2 {
 		width: 5px;
 	}
 
-	#rightbar2 {
+	#rightBar2 {
 		width: 5px;
 	}
 

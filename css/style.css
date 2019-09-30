@@ -346,4 +346,12 @@ footer h4 {
 	.intro {
 		font-size: 60%;
 	}
+
+	.intro p {
+		font-size: 190%;
+	}
+
+	.work p {
+		font-size: 100%;
+	}
 }

@@ -26,7 +26,7 @@
                 <li><a href="./index.html">home</a></li>
                 <li><div id="about" class="toggleOverlay">about</div></li>
                 <!--<li><a href="#">work</a></li>-->
-                <li><a href="#">contact</a></li>
+                <li><a onclick="toggleInfo()" id="contact">contact</a></li>
                 <li><img src="./images/logo.png" id="logo" alt="Raymundo Rubi Logo"></li>
             </ul>
         </nav>	
@@ -75,8 +75,11 @@
         <div class="row">
             <div class="col intro">
                 <div class="blueLine"></div>
-                <h1>DNA Advertising</h1>
-                <p>Several print collateral, digital advertisements, and photographs created over the course of my time at DNA Specialty.</p>
+                <div id="introInfo">
+                    <h1>DNA Advertising</h1>
+                    <p>Several print collateral, digital advertisements, and photographs created over the course of my time at DNA Specialty.</p>
+                </div>
+                <p id="contactInfo">raymundo.rubi@gmail.com <br>linkedin.com/in/raymundo-rubi <br>IG @rayyrubi</p>
             </div>
         </div>
     </section>

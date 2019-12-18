@@ -214,6 +214,14 @@ aside {
 	margin-top: 20px;
 }
 
+#introInfo {
+	display: block;
+}
+
+#contactInfo {
+	display: none;
+}
+
 .blueLine {
 	background-color: #4E99FF;
 	height: 4px;
@@ -269,6 +277,10 @@ aside {
 .even {
 	padding-right: 0;
 	padding-left: 35px;
+}
+
+#navigation {
+	text-align: center;
 }
 
 /*-----end project windows-----*/

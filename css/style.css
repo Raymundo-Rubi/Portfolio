@@ -280,7 +280,9 @@ aside {
 }
 
 #navigation {
+	margin-top: 30px;
 	text-align: center;
+	font-size: 140%
 }
 
 /*-----end project windows-----*/
